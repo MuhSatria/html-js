@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkbox</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="/dist/home.css">
+</head>
+<body>
+  <div class="box-content">
+    <div class="box-menu">
+      <div class="box-menu__group">
+        <h2 class="title">Hi Samantha</h2>
+        <p class="desc">Welcome back to the workspace, we missed You!</p>
+        <div class="custom-search">
+          <img src="./app/assets/icons/Icon-search-outline-white.svg" alt="logo">
+          <input type="text" placeholder="Search Task or Project...">
+        </div>
+        <div class="section-project">
+          <p class="section-project__title">
+            Project
+            <span>(13)</span>
+          </p>
+          <div class="section-project__group">
+
+            <div class="box-project">
+              <div class="box-project__data" style="background: linear-gradient(45deg, #FA2E87, #F93BC7);">
+                <div id="data_gh" class="outline"></div>
+                <input class="checked" type="checkbox" name="GH" id="GH">
+                <p class="text">GH</p>
+              </div>
+              <p class="box-project__label">Green House</p>
+            </div>
+            <div class="box-project">
+              <div class="box-project__data" style="background: linear-gradient(45deg, #2DD6A3, #3974E2)">
+                <div id="data_cp" class="outline"></div>
+                <input class="checked" type="checkbox" name="CP" id="CP">
+                <p class="text">CP</p>
+              </div>
+              <p class="box-project__label">Cyber Punk</p>
+            </div>
+            <div class="box-project">
+              <div class="box-project__data" style="background: linear-gradient(45deg, #BE68D4, #603ABB)">
+                <div id="data_ec" class="outline"></div>
+                <input class="checked" type="checkbox" name="EC" id="EC">
+                <p class="text">EC</p>
+              </div>
+              <p class="box-project__label">Esay Cripto</p>
+            </div>
+            <div class="box-project">
+              <div class="box-project__data" style="background: linear-gradient(45deg, #7541F0, #2ABDEF)">
+                <div id="data_ta" class="outline"></div>
+                <input class="checked" type="checkbox" name="TA" id="TA">
+                <p class="text">TA</p>
+              </div>
+              <p class="box-project__label">Travel App</p>
+            </div>
+            <div class="box-project">
+              <div class="box-project__data" style="background: linear-gradient(45deg, #F8BF72, #E36761)">
+                <div id="data_lp" class="outline"></div>
+                <input class="checked" type="checkbox" name="LP" id="LP">
+                <p class="text">LP</p>
+              </div>
+              <p class="box-project__label">landing Page</p>
+            </div>
+            <div class="box-project">
+              <div class="box-project__data">
+                <p class="text">8+</p>
+              </div>
+              <p class="box-project__label"></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-todo">
+      <div class="box-adds">
+        <img src="./app/assets/icons/Icon-add-outline-white.svg" alt="+">
+      </div>
+      <div class="box-todo__group">
+        <div class="header">
+          <div class="description">
+            <h2 class="title">Cyber Punk</h2>
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cumque consequuntur quis voluptate.</p>
+          </div>
+          <div class="more">
+            <div class="more__group">
+              <div class="box-img"></div>
+              <div class="box-img"></div>
+              <div class="box-img"></div>
+              <img class="add" src="./app/assets/icons/Icon-add-gray.svg" alt="add">
+            </div>
+          </div>
+        </div>
+        <div class="todos">
+          <div class="todos__header">
+            <p class="title">Today</p>
+            <img src="./app/assets/icons/Icon-more-gray.svg" alt="more">
+          </div>
+          <div class="todos__list">
+            <div class="items">
+              <div class="data">
+                <input type="checkbox" name="check" id="data1">
+                <label for="data1">Create initial layout for homepage</label>
+              </div>
+              <div class="status-box aprove">Approve</div>
+            </div>
+            <div class="items">
+              <div class="data">
+                <input type="checkbox" name="check" id="data2">
+                <label for="data2">Fixing icons with transparant background</label>
+              </div>
+              <div class="status-box progress">In Progress</div>
+            </div>
+            <div class="items">
+              <div class="data">
+                <input type="checkbox" name="check" id="data3">
+                <label for="data3">Discussions regarding workflow improvement</label>
+              </div>
+              <div class="status-box review">In Review</div>
+            </div>
+            <div class="items">
+              <div class="data">
+                <input type="checkbox" name="check" id="data4">
+                <label for="data4">Create quotation for app redesign project</label>
+              </div>
+              <div class="status-box waiting">In Waiting</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/app/js/script.js"></script>
+</body>
+</html>
